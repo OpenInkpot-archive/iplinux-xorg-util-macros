@@ -1,0 +1,11 @@
+Source: xorg-util-macros
+Section: libdevel
+Maintainer: Mikhail Gusarov <dottedmag@dottedmag.net>
+Build-Depends: debhelper (>> 4.0.0)
+Priority: optional
+Standards-Version: 3.6.2
+
+Package: xorg-util-macros
+Architecture: all
+Description: X.org macros utilities for autoconf
+ X.org macros utilities used during build.

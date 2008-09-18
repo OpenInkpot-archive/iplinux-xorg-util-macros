@@ -1,0 +1,44 @@
+#!/usr/bin/make -f
+
+clean:
+	dh_testdir
+	dh_testroot
+	dh_clean
+
+	[ ! -f Makefile ] || $(MAKE) distclean
+	rm -f *-stamp
+
+configure: configure-stamp
+configure-stamp:
+	dh_testdir
+	./autogen.sh
+	touch $@
+
+build: build-stamp
+build-stamp: configure
+	dh_testdir
+	$(MAKE)
+	touch $@
+
+install: build
+	dh_testdir
+	dh_testroot
+	dh_clean -k
+
+	$(MAKE) install DESTDIR=debian/xorg-util-macros
+
+binary-arch: build install
+
+binary-indep: build install
+	dh_testdir
+	dh_testroot
+	dh_compress
+	dh_fixperms
+	dh_installdeb
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+binary: binary-arch binary-indep
+
+.PHONY: clean install build binary binary-arch binary-indep
