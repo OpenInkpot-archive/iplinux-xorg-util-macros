@@ -2,8 +2,8 @@ Source: xorg-util-macros
 Section: host/tools
 Priority: optional
 Maintainer: Mikhail Gusarov <dottedmag@dottedmag.net>
-Build-Depends: debhelper (>> 7), autoconf
-XCS-Cross-Host-Build-Depends: debhelper (>> 7), autoconf
+Build-Depends: debhelper (>> 7), autoconf, automake
+XCS-Cross-Host-Build-Depends: debhelper (>> 7), autoconf, automake
 Standards-Version: 3.8.0
 
 Package: xorg-util-macros
