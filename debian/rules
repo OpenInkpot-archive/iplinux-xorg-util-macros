@@ -10,7 +10,7 @@ clean:
 configure: configure-stamp
 configure-stamp:
 	dh_testdir
-	./autogen.sh
+	./autogen.sh --datadir=/usr/share
 	touch $@
 
 build: build-stamp
