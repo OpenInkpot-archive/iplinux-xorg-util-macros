@@ -1,3 +1,11 @@
+xorg-util-macros (1.1.6-1.ip1) asimov; urgency=low
+
+  * First build for IPlinux.
+  * macros moved to /usr/share/aclocal
+  * Section changed to host/tools
+
+ -- Mikhail Gusarov <dottedmag@dottedmag.net>  Tue, 10 Mar 2009 21:36:29 +0600
+
 xorg-util-macros (1.1.6-0.oi1) asimov; urgency=low
 
   * First build for OI
