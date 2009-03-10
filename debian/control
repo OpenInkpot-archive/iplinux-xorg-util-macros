@@ -1,9 +1,10 @@
 Source: xorg-util-macros
 Section: libdevel
-Maintainer: Mikhail Gusarov <dottedmag@dottedmag.net>
-Build-Depends: debhelper (>> 4.0.0)
 Priority: optional
-Standards-Version: 3.6.2
+Maintainer: Mikhail Gusarov <dottedmag@dottedmag.net>
+Build-Depends: debhelper (>> 7)
+XCS-Cross-Host-Build-Depends: debhelper (>> 7)
+Standards-Version: 3.8.0
 
 Package: xorg-util-macros
 Architecture: all

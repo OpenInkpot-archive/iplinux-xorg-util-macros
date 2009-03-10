@@ -6,7 +6,6 @@ clean:
 	dh_clean
 
 	[ ! -f Makefile ] || $(MAKE) distclean
-	rm -f *-stamp
 
 configure: configure-stamp
 configure-stamp:
