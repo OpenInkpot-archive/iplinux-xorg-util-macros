@@ -1,5 +1,5 @@
 Source: xorg-util-macros
-Section: libdevel
+Section: host/tools
 Priority: optional
 Maintainer: Mikhail Gusarov <dottedmag@dottedmag.net>
 Build-Depends: debhelper (>> 7)
