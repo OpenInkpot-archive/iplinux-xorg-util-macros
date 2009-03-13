@@ -1,3 +1,9 @@
+xorg-util-macros (1.2.1-1) asimov; urgency=low
+
+  * New upstream release.
+
+ -- Mikhail Gusarov <dottedmag@dottedmag.net>  Fri, 13 Mar 2009 14:52:20 +0600
+
 xorg-util-macros (1.1.6-1.ip1) asimov; urgency=low
 
   * First build for IPlinux.
