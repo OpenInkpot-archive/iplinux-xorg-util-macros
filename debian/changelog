@@ -1,3 +1,9 @@
+xorg-util-macros (1.7.0-1) zelazny; urgency=low
+
+  * New upstream release.
+
+ -- Mikhail Gusarov <dottedmag@dottedmag.net>  Thu, 15 Apr 2010 19:56:28 +0700
+
 xorg-util-macros (1.6.1-1) zelazny; urgency=low
 
   * New upstream release.
