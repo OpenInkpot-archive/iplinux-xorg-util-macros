@@ -1,3 +1,9 @@
+xorg-util-macros (1.13.0-1) zelazny; urgency=low
+
+  * New upstream release.
+
+ -- Alexander Kerner <lunohod@openinkpot.org>  Thu, 07 Apr 2011 23:43:02 +0200
+
 xorg-util-macros (1.7.0-1) zelazny; urgency=low
 
   * New upstream release.
